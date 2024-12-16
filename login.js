@@ -4,8 +4,8 @@ const errorMessage = document.getElementById("error-message");
 
 // Predefined login details
 const users = [
-    { username: "user", password: "user123", role: "user" },
-    { username: "admin", password: "admin123", role: "admin" }
+    { username: "User", password: "user123", role: "user" },
+    { username: "Admin", password: "admin123", role: "admin" }
 ];
 
 // Event listener for login form
