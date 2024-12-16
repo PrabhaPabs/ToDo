@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#1a0d4b,#b01b7c,#d8b8e0);
+}
+
+.dashboard-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 60%;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #210c55;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3040bc;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f8f9fa;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #1ba093;
+    color: white;
+    border: none;
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+li button:hover {
+    background-color: #23c8aa;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
